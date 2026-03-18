@@ -105,7 +105,7 @@ async function main() {
   );
 
   console.log(
-    "Agora, forneça um número para que seja fornecida a tabuada dele.",
+    "Agora, forneça um número para que a tabuada dele seja imprimida.",
   );
   const num41: number = parseInt(await askQuestion("Número: "));
   const num42: number = parseInt(
